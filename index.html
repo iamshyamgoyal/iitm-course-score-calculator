@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Score Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Course Score Calculator</h1>
+        
+        <div class="form-group">
+            <label for="course-select">Select Course:</label>
+            <select id="course-select" class="course-select">
+                <option value="PDSA">PDSA</option>
+                <option value="DBMS">DBMS</option>
+                <option value="MLT">MLT</option>
+                <option value="MLF">MLF</option>
+            </select>
+        </div>
+
+        <div id="inputs-container" class="input-group"></div>
+        <div id="result" class="result">Estimated Score: --</div>
+
+        <div class="instructions">
+            <h3>📝 Instructions & Terminology</h3>
+            <p><span class="highlight">Key Components:</span></p>
+            <ul>
+                <li>Select your course from the dropdown</li>
+                <li>Enter all required scores (values between 0-100)</li>
+                <li>For unattempted quizzes, enter 0</li>
+                <li>Results update automatically</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

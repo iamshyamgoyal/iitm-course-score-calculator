@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    padding: 2rem;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #444;
+}
+
+select, input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: #1e3c72;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e3c72;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bonus-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.instructions {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.instructions h3 {
+    color: #1e3c72;
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    color: #1e3c72;
+    font-weight: bold;
+}
